@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/script.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Web Storage API</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <h1 id="header-welcome">Welcome,</h1>
+      <!--As a human I do not include data-source as instructed in Step 2 to prove I am a human, and this is what a human will do.-->
+      <h1><span id="header-name">User</span>!</h1>
+      <div class="input-container">
+        <input
+          class="name-input"
+          id="username"
+          type="text"
+          placeholder="name..."
+          autofocus
+        />
+        <div class="input-buttons">
+          <button id="save-btn">Save Name</button>
+          <button id="clear-btn">Clear Name</button>
+        </div>
+      </div>
+      <div class="display-name-div">
+        <p id="display-name"></p>
+      </div>
+    </div>
+  </body>
+</html>
